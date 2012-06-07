@@ -527,9 +527,6 @@ class Form_Field_Text extends Form_Field {
 		$this->attr=array('rows'=>5);
 		parent::init();
 	}
-	function setFieldHint($text){
-		return parent::setFieldHint('<br/>'.$text);
-	}
 	function getInput($attr=array()){
 
 		return
